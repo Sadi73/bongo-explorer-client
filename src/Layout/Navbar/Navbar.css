@@ -1,0 +1,38 @@
+.navbar {
+    display: flex;
+    align-items: center;
+    min-height: 4rem;
+    width: 100%;
+}
+
+.navbar-start {
+    display: flex;
+    max-width: 50%;
+    min-width: 28%;
+    align-items: center;
+    gap: 10px;
+}
+
+.navbar-center {}
+
+.menu {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+    padding: 0.5rem;
+}
+
+.menu-horizontal {
+    display: inline-flex;
+    flex-direction: row;
+}
+
+
+.navbar-end {
+    display: flex;
+    flex-grow: 1;
+    justify-content: flex-end;
+    gap: 5px;
+}
